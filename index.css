@@ -1,0 +1,264 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.body{
+    width: 100%;
+    height: 100%;
+    
+}
+.bhead{
+    width: 100%;
+    padding: 5px 0;
+}
+.bhtwo{
+    width: 100%;
+    height: 116px;
+}
+.bhinfo{
+    width: 100%;
+    display: flex;
+    padding: 10px 0;
+}
+.bhcajon{
+    width: 25%;
+    border-left: #dddddd 1px solid;
+}
+.bhclogo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.bhclogo img{
+    width: 70%;        
+}
+.bhcloaclization,.bhiemail,.bhiphone{
+    width: 90%;
+    display: flex;
+    padding: 0 0 0  .5rem;
+}
+.bhcicon{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #04b6ba 1px solid;
+}
+.bhcicon:hover{
+    cursor: pointer;
+    background: #04b6ba;
+    color: white;
+}
+.img{
+    color: #04b6ba;
+    font-size: 40px;
+}
+.bhctext{
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 5px;
+}
+.cont{
+    
+}
+.bhctext h4,.bhctext p{
+    margin: 0;
+}
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    
+}
+.mbody{
+    width: 90%;
+    background: #04b6ba;
+    display: flex;
+    align-items: center;
+}
+.mbcajon1{
+    width: 70%;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: white 1px solid;
+}
+.item{
+    width: 20%;
+}
+.mbciall{
+    width: 70%;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mbciall:hover{
+    background: white;
+    color: #04b6ba;
+}
+.mbciall a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.mbcajon2{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mbcredes{
+    width: 11%;
+}
+.mbcrimg{
+    color: white;
+    font-size: 40px;
+    display: flex;
+}
+.mbcrimg:hover{
+    cursor: pointer;
+}
+.main{
+    width: 100%;
+    height: 150px;
+}
+.photos{
+    display: flex;
+    justify-content: center;
+    top: 0;
+    left: 0;
+     height: 500px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background: rgba(0,0,0,0.2);
+}
+.flecha{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.mpfimg{
+    padding: 3px;
+    font-size: 50px;
+}
+.mpimg img{
+    height: 500px;
+    
+}
+.item1{
+    
+}
+.item2,.item3{
+    display: none;
+}
+.title-des{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 50%;
+}
+.title,.descr{
+    width: 100%;
+    text-align: center;
+}
+.servicios{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.smain{
+    text-align: center;
+    width: 90%;
+}
+.smitem{
+    width:  30%;
+    border: #dddddd 1px solid;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.cuadros{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.smiimg{
+    width: 100%;
+}
+.smiimg img{
+    width: 365px;
+}
+.smibtn{
+    padding: 0 0 5px 0;
+}
+.smibtn input{
+     background:#04b6ba ;
+    color: white;
+    border:     #04b6ba 1px solid;
+    border-radius: 20px;
+    height: 40px;
+    width: 40%;
+}
+.foot{
+    width: 100%;
+    height: 170px;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+}
+.fmain{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fcaja{
+    width: 30%;
+    
+}
+.fcontainer{
+}
+
+.fcimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fcimg img{
+    width: 90%;
+}
+.ubi,.pho,.ema{
+    display: flex;
+}
+.fcutxt p,.fcptxt p,.fcaja p{
+    margin: 0;
+    color: white;
+    text-align: justify;
+}
+.abo h2{
+    color: white;
+}
+.fcuico,.fcpico,.fceico{
+    padding: 5px;
+    font-size: 30px;
+    color: white;
+    width: 30px;
+}
+.fcutxt,.fcetxt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.abo{
+    text-align: center;
+}
